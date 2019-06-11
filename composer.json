@@ -1,0 +1,21 @@
+{
+    "name": "lyignore\/sendemail",
+    "description": "Timed tasks automatically query data and send it to the specified mailbox",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lyignore",
+            "email": "1585296643@qq.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.9",
+        "phpoffice/phpspreadsheet": "^1.7",
+        "sendgrid/sendgrid": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lyignore\\Sendemail\\": "src"
+        }
+    }
+}
