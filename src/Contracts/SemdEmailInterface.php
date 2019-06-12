@@ -9,5 +9,5 @@ interface SemdEmailInterface{
     public function createExcel();
 
     // 发送邮件
-    public function send();
+    public function send(array $emails);
 }
