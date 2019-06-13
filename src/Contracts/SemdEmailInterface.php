@@ -3,7 +3,7 @@ namespace Lyignore\Sendemail\Contracts;
 
 interface SemdEmailInterface{
     // 获取数据
-    public function getData(string $filename);
+    public function getData(string $sql, array $params);
 
     // 生成Excel文件
     public function createExcel();
