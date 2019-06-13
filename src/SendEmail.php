@@ -87,7 +87,7 @@ class SendEmail implements SemdEmailInterface {
         $AZ = range('A', 'Z');
         if(!empty($this->datas)){
             foreach ($this->datas as $ke=>$content){
-                $sheet->getColumnDimension($AZ[$ke])->setAutoSize(true);
+                //$sheet->getColumnDimension($AZ[$ke])->setAutoSize(true);
                 $ks = 0;
                 foreach ($content as $k => $cell){
                     $sheet->setCellValue($AZ[$ks].($ke+1), $cell);
